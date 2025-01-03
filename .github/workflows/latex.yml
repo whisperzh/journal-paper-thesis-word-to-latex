@@ -20,12 +20,12 @@ jobs:
         with:
           env-file: paperaj.env
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           working_directory: clean
           root_file: main.tex
       - name: Upload LaTeX pdf
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: article
           path: clean/main.pdf
