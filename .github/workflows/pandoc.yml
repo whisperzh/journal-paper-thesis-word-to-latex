@@ -23,7 +23,7 @@ jobs:
           default_author: github_actions
           add: '*.tex'
       - name: Upload latex zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: latex
           path: clean/

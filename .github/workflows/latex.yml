@@ -20,7 +20,7 @@ jobs:
         with:
           env-file: paperaj.env
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v2
         with:
           working_directory: clean
           root_file: main.tex
