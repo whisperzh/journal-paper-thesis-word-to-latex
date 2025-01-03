@@ -14,7 +14,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Run paperaj
-        uses: dermatologist/paperaj@master
+        uses: whisperzh/paperaj@master
         with:
           env-file: paperaj.env
       - name: Commit changes
